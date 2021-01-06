@@ -9,11 +9,11 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "LibXlsxWriter",
-            targets: ["libxlsxwriter-smp"]),
+            targets: ["LibXlsxWriter"]),
     ],
     targets: [
         .target(
-            name: "libxlsxwriter-smp",
+            name: "LibXlsxWriter",
             dependencies: []),
     ]
 )
